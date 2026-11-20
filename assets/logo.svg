@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3FA65B" />
+      <stop offset="100%" stop-color="#4CAF50" />
+    </linearGradient>
+    <linearGradient id="bar1Grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3FA65B" />
+      <stop offset="100%" stop-color="#52B76E" />
+    </linearGradient>
+    <linearGradient id="bar2Grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#5CC87B" />
+    </linearGradient>
+    <linearGradient id="bar3Grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#388E3C" />
+      <stop offset="100%" stop-color="#48A14D" />
+    </linearGradient>
+  </defs>
+
+  <!-- Growth Chart Bars -->
+  <!-- Left Bar -->
+  <rect x="195" y="235" width="36" height="100" rx="12" fill="url(#bar1Grad)" />
+  
+  <!-- Middle Bar -->
+  <rect x="245" y="200" width="36" height="135" rx="12" fill="url(#bar2Grad)" />
+  
+  <!-- Right Bar -->
+  <rect x="295" y="160" width="36" height="175" rx="12" fill="url(#bar3Grad)" />
+
+  <!-- Upward Trend Line & Arrow -->
+  <!-- Diagonal line path with rounded joints -->
+  <path d="M 165 240 L 225 185 L 265 220 L 335 145" 
+        fill="none" 
+        stroke="url(#greenGrad)" 
+        stroke-width="26" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+
+  <!-- Arrow Head -->
+  <polygon points="310,130 365,115 350,170 335,145" fill="#4CAF50" />
+
+  <!-- Brand Typography -->
+  <!-- SKILL -->
+  <text x="250" y="390" 
+        text-anchor="middle" 
+        font-family="'Outfit', 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" 
+        font-weight="900" 
+        font-size="64" 
+        letter-spacing="2" 
+        fill="#FFFFFF">SKILL</text>
+
+  <!-- MASTERS -->
+  <text x="250" y="445" 
+        text-anchor="middle" 
+        font-family="'Outfit', 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" 
+        font-weight="900" 
+        font-size="56" 
+        letter-spacing="3" 
+        fill="#FFFFFF">MASTERS</text>
+
+  <!-- PVT LTD -->
+  <text x="250" y="485" 
+        text-anchor="middle" 
+        font-family="'Outfit', 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" 
+        font-weight="800" 
+        font-size="28" 
+        letter-spacing="8" 
+        fill="#4CAF50">PVT LTD</text>
+</svg>
